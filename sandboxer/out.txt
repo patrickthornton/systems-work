@@ -1,0 +1,18 @@
+[guest pid=[1]] ++++: [guest] Execution started, pid=[1] ppid=[0]!
+[guest pid=[1]] ++++: Guest was correctly PID-namespaced.
+[guest pid=[1]] ++++: Non-root guest process could not read /etc/shadow.
+[guest pid=[1]] ++++: Guest process wrote then read then deleted a file `.`.
+[guest pid=[1]] ++++: Guest created a new child process pid=[2].
+[guest pid=[1]] ++++: Guest created a new child process pid=[3].
+[guest pid=[1]] ++++: Guest created a new child process pid=[4].
+[guest pid=[1]] ++++: Guest created a new child process pid=[5].
+[guest pid=[4]] ++++: guest child process received SIGHUP!
+[guest pid=[5]] ++++: guest child process received SIGHUP!
+[guest pid=[1]] ++++: Guest had the right number of children killed by the sandbox.
+[guest pid=[1]] ++++: Guest unable to fetch HTTP data from [https://www.cnn.com]: <urlopen error [Errno 1] Operation not permitted>
+[guest pid=[1]] ++++: Guest unable to fetch HTTP data from [https://www.google.com]: <urlopen error [Errno 1] Operation not permitted>
+[guest pid=[1]] ++++: Guest could not fetch HTTP data from external hosts.
+[guest pid=[1]] ++++: Guest server (127.0.0.1) will use random port [4765].
+[guest pid=[1]] ++++: Guest client received msg ['Hello client! Have a good day.'] from guest server.
+[guest pid=[1]] ++++: Guest execution ended.
+[guest pid=[6]] ++++: Guest server was able to send data to guest client.

@@ -1,0 +1,1 @@
+a random sample of systems work done in various classes, with distribution code stripped away to the extent that none of these (save maybe `sandboxer`, but that one is very architecture-specific due to the use of `ptrace` all over the place) will actually compile. regardless, here it is.
